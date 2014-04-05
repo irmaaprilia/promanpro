@@ -1,0 +1,755 @@
+2014/03/29 05:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=gii
+---
+2014/03/30 10:06:52 [error] [php] include(RegisterForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:07:46 [error] [php] include(RegisterForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:17:16 [error] [php] include(Pengguna.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:19:08 [error] [php] include(user.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:31:31 [error] [php] include(user.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:36:31 [error] [php] include(user.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/30 10:39:16 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(ContactForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(ContactForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(ContactForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(ContactForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/30 10:51:58 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.subject" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('subject')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'subject')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'subject', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'subject', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\contact.php(54): CActiveForm->textField(Object(RegisterForm), 'subject', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/30 10:52:17 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/30 11:19:36 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/30 11:28:18 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/30 12:07:11 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/30 12:08:42 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/login
+---
+2014/03/30 12:08:47 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/login
+---
+2014/03/31 02:30:29 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/
+---
+2014/03/31 02:32:07 [error] [exception.CException] exception 'CException' with message 'Property "RegisterForm.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterForm), 'username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterForm), 'username', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RegisterForm), 'username', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(48): CActiveForm->textField(Object(RegisterForm), 'username')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(72): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/31 02:33:27 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "getTableSchema".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): CComponent->__call('getTableSchema', Array)
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): RegisterForm->getTableSchema()
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(RegisterForm), 'username')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#4 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(58): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 05:10:39 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "getTableSchema".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): CComponent->__call('getTableSchema', Array)
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): RegisterForm->getTableSchema()
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(RegisterForm), 'username')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#4 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(58): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 05:16:51 [error] [exception.CException] exception 'CException' with message 'RegisterForm and its behaviors do not have a method or closure named "getTableSchema".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): CComponent->__call('getTableSchema', Array)
+#1 C:\xampp\htdocs\yii\framework\validators\CUniqueValidator.php(96): RegisterForm->getTableSchema()
+#2 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CUniqueValidator->validateAttribute(Object(RegisterForm), 'username')
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(RegisterForm), NULL)
+#4 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(58): CModel->validate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 05:49:04 [error] [php] include(user.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 06:24:36 [error] [php] include(Pengguna.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 06:28:05 [error] [php] include(pengguna.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (54)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 06:28:32 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (103)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 06:29:09 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php:98)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 06:32:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(83): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/31 06:33:10 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(83): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php (29)
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php (14)
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (83)
+2014/03/31 06:33:50 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(65): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php (29)
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php (14)
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (65)
+2014/03/31 06:33:50 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(65): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php (29)
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php (14)
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (65)
+2014/03/31 06:33:50 [error] [php] Undefined variable: pt (C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(65): SiteController->render()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php (29)
+in C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php (14)
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (65)
+2014/03/31 06:35:07 [error] [exception.CException] exception 'CException' with message 'Property "user.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(user), 'nama')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(user), 'nama', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(user), 'nama', Array)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php(42): CActiveForm->textField(Object(user), 'nama', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#13 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(65): CController->render('register', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/31 06:43:42 [error] [exception.CException] exception 'CException' with message 'Property "user.isNewRecord" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php(47): CComponent->__get('isNewRecord')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): CController->renderPartial('_form', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(65): CController->render('register', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/contact
+---
+2014/03/31 07:03:30 [error] [php] Undefined variable: user (C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (55)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 07:03:51 [error] [exception.CException] exception 'CException' with message 'user and its behaviors do not have a method or closure named "save".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(56): CComponent->__call('save', Array)
+#1 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(56): user->save()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 07:11:59 [error] [exception.CException] exception 'CException' with message 'user and its behaviors do not have a method or closure named "save".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(56): CComponent->__call('save', Array)
+#1 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(56): user->save()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+HTTP_REFERER=http://localhost/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 07:12:33 [error] [php] Undefined index: register (C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php:62)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (62)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
+2014/03/31 08:37:26 [error] [exception.CException] exception 'CException' with message 'Property "user.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(user), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(user), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(user), 'username', Array)
+#5 C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php(24): CActiveForm->textField(Object(user), 'username', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#14 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(69): CController->render('register', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+---
+2014/03/31 08:38:25 [error] [exception.CException] exception 'CException' with message 'Property "user.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(user), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(user), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(user), 'username', Array)
+#5 C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php(24): CActiveForm->textField(Object(user), 'username', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#14 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(69): CController->render('register', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/PROMANPRO/index.php?r=site/register
+---
+2014/04/05 10:34:42 [error] [exception.CException] exception 'CException' with message 'Property "User.username" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(User), 'username')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(User), 'username', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(User), 'username', Array)
+#5 C:\xampp\htdocs\PROMANPRO\protected\views\site\_form.php(24): CActiveForm->textField(Object(User), 'username', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\PROMANPRO\protected\views\site\register.php(14): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#14 C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php(78): CController->render('register', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\PROMANPRO\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/PROMANPRO/index.php/site/register
+HTTP_REFERER=http://localhost/PROMANPRO/
+---
+2014/04/05 10:39:15 [error] [php] Undefined index: user (C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php:60)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\PROMANPRO\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php/site/register
+in C:\xampp\htdocs\PROMANPRO\protected\controllers\SiteController.php (60)
+in C:\xampp\htdocs\PROMANPRO\index.php (13)
