@@ -30,8 +30,8 @@ class Task extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('ID, Name, PJ, Progress, Start_Time, End_Time', 'required'),
-			array('ID, Progress', 'numerical', 'integerOnly'=>true),
+			array('Name', 'required'),
+			array('Progress', 'numerical', 'integerOnly'=>true),
 			array('Name, PJ', 'length', 'max'=>20),
 			array('Description', 'safe'),
 			// The following rule is used by search().
