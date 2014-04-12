@@ -39,7 +39,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Start_Date'); ?>
-		<?php echo $form->textField($model,'Start_Date'); ?>
+		<?php echo $form->textField($model,'Start_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
 		<?php echo $form->error($model,'Start_Date'); ?>
 	</div>
 
