@@ -13,13 +13,13 @@ $this->pageTitle=Yii::app()->name;
 
 <?php $this->endWidget(); ?>
 -->
+
 <?php $this->beginWidget('bootstrap.widgets.TbHeroUnit', array(
-    'heading' => 'Hello, world!',
-    //TbHtml::button('Learn more', array('color' =>TbHtml::BUTTON_COLOR_PRIMARY, 'size' => TbHtml::BUTTON_SIZE_LARGE))
+    'heading' => 'Welcome to '.CHtml::encode(Yii::app()->name),
     
     
 )); ?>
-<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> 
+<p>Lala is here for developing this apps</p> 
 <?php $this->widget('bootstrap.widgets.TbButton', array(
     'label'=>'Sign Up',
     'url'=>array('/site/register'),
