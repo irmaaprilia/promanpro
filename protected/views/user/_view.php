@@ -13,10 +13,6 @@
 	<?php echo CHtml::encode($data->Username); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Password')); ?>:</b>
-	<?php echo CHtml::encode($data->Password); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Name')); ?>:</b>
 	<?php echo CHtml::encode($data->Name); ?>
 	<br />

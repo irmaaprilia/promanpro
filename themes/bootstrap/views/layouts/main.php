@@ -20,6 +20,7 @@
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
+                array('label'=>'Pofile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Project', 'url'=>array('/project/index'),'visible'=>!Yii::app()->user->isGuest),
                 //array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 //array('label'=>'Contact', 'url'=>array('/site/contact')),
