@@ -19,6 +19,12 @@
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
+<<<<<<< HEAD
+=======
+
+                //array('label'=>'Home', 'url'=>array('/site/index')),
+
+>>>>>>> 7d38e1214c52433df29daf41a68ab1b4e8104f56
                 //array('label'=>'Home', 'url'=>array('/site/index')),
                 array('label'=>'Pofile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Project', 'url'=>array('/project/index'),'visible'=>!Yii::app()->user->isGuest),
