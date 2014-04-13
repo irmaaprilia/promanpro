@@ -24,6 +24,12 @@
 		<?php echo $form->textField($model,'Name',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model,'Name'); ?>
 	</div>
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'Start_Date'); ?>
+		<?php echo $form->textField($model,'Start_Time',array('placeholder'=>'YYYY-MM-DD')); ?>
+		<?php echo $form->error($model,'Start_Time'); ?>
+	</div>
 
         <!-- form 
         <div class="row">
@@ -42,12 +48,6 @@
 		<?php echo $form->labelEx($model,'Progress'); ?>
 		<?php echo $form->textField($model,'Progress'); ?>
 		<?php echo $form->error($model,'Progress'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Start_Time'); ?>
-		<?php echo $form->textField($model,'Start_Time'); ?>
-		<?php echo $form->error($model,'Start_Time'); ?>
 	</div>
 
 	<div class="row">
