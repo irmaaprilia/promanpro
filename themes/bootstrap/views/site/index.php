@@ -13,7 +13,8 @@ $this->pageTitle=Yii::app()->name;
 
 <?php $this->endWidget(); ?>
 -->
-<?php $this->beginWidget('bootstrap.widgets.TbHeroUnit', array(
+
+    <?php $this->beginWidget('bootstrap.widgets.TbHeroUnit', array(
     'heading' => 'Hello, world!',
     //TbHtml::button('Learn more', array('color' =>TbHtml::BUTTON_COLOR_PRIMARY, 'size' => TbHtml::BUTTON_SIZE_LARGE))
     
