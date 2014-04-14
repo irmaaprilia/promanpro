@@ -12,6 +12,7 @@ This is the master branch of promanpro containing work in progress on the next r
 
 + Added Yii Framework 
 + Added Bootstrap & Flat Ui Free css
++ generae some CRUD functions from gii
 
 ## Author
 **B03**
