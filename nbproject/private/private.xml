@@ -3,16 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
             <file>file:/opt/lampp/htdocs/promanpro/index.php</file>
             <file>file:/opt/lampp/htdocs/promanpro/protected/config/main.php</file>
             <file>file:/opt/lampp/htdocs/promanpro/themes/bootstrap/views/site/index.php</file>
             <file>file:/opt/lampp/htdocs/promanpro/themes/bootstrap/views/layouts/main.php</file>
-=======
-            <file>file:/C:/xampp/htdocs/PROMANPRO/protected/views/undangan/view.php</file>
-            <file>file:/C:/xampp/htdocs/PROMANPRO/protected/views/project/_view.php</file>
-            <file>file:/C:/xampp/htdocs/PROMANPRO/protected/views/project/_search.php</file>
->>>>>>> 0f4981a5af10e2b1687a1ddb3b179f382ca20976
         </group>
     </open-files>
 </project-private>
