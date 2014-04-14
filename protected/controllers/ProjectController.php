@@ -122,10 +122,33 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Project');
+            
+		$dataProvider=new CActiveDataProvider('Project',array(
+                    'criteria'=>array(
+                        'condition'=>'',
+                        //'order'=>'id DESC',
+                        //'with'=>array('author'),
+                    ),
+                ));               
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
+            /*
+            $criteria=new CDbCriteria(array(                    
+                                'order'=>'status desc',
+                                'with'   => array('userToProject'=>array('alias'=>'user')),
+                                'condition'=>'status='.Project::STATUS_FINISHED.' OR user.id = 6',
+
+                        ));
+
+            $dataProvider=new CActiveDataProvider('Project', array(
+                        'criteria'=>$criteria,
+                ));
+            $this->render('index',array(
+                        'dataProvider'=>$dataProvider,
+                ));
+             * 
+             */
 	}
 
 	/**
