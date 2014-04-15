@@ -19,7 +19,7 @@
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Pofile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Profile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Project', 'url'=>array('/project/index'),'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)

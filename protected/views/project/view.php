@@ -13,8 +13,6 @@ $this->menu=array(
 	array('label'=>'Update Project', 'url'=>array('update', 'id'=>$model->ID)),
 	array('label'=>'Delete Project', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->ID),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Project', 'url'=>array('admin')),
-        array('label'=>'View Task', 'url'=>array('/task/index')),
-        array('label'=>'Send Invitation', 'url'=>array('/invitation/create')),
 );
 ?>
 
@@ -29,5 +27,6 @@ $this->menu=array(
 		'Status',
 		'Start_Date',
 		'End_Date',
+		'adminProject',
 	),
 )); ?>

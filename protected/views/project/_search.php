@@ -41,6 +41,11 @@
 		<?php echo $form->textField($model,'End_Date'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'adminProject'); ?>
+		<?php echo $form->textField($model,'adminProject',array('size'=>30,'maxlength'=>30)); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

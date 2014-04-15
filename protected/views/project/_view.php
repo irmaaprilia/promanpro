@@ -29,5 +29,9 @@
 	<?php echo CHtml::encode($data->End_Date); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('adminProject')); ?>:</b>
+	<?php echo CHtml::encode($data->adminProject); ?>
+	<br />
+
 
 </div>

@@ -39,7 +39,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Start_Date'); ?>
-		<?php echo $form->textField($model,'Start_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
+		<?php echo $form->textField($model,'Start_Date'); ?>
 		<?php echo $form->error($model,'Start_Date'); ?>
 	</div>
 
@@ -48,6 +48,14 @@
 		<?php echo $form->textField($model,'End_Date'); ?>
 		<?php echo $form->error($model,'End_Date'); ?>
 	</div>
+
+        <!--
+	<div class="row">
+		<?php echo $form->labelEx($model,'adminProject'); ?>
+		<?php echo $form->textField($model,'adminProject',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'adminProject'); ?>
+	</div>
+        -->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

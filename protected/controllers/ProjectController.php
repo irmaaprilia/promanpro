@@ -69,7 +69,13 @@ class ProjectController extends Controller
 
 		if(isset($_POST['Project']))
 		{
+                        
+                        //$model->description='aa';
 			$model->attributes=$_POST['Project'];
+                        //$model->adminProject=Yii::app()->user->id;
+                        //$model->adminProject=Yii::app()->user->getId();
+                        //$model->adminProject=Yii::app()->user->email;
+                        //$model->Start_Date='20140415';
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}
@@ -122,33 +128,21 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
-            
 		$dataProvider=new CActiveDataProvider('Project',array(
                     'criteria'=>array(
-                        'condition'=>'',
+                        //$criteria=new CDbCriteria,
+                        //$criteria->compare('isAdmin', Yii::app()->isAdmin, true), //ini yang barusan diubah
+                        'condition'=>'adminProject=1',
+                        //'condition'=>compare('adminProject', 'aa'),
+                        //'condition'=>'start_date=20140415',
+                        //AdminProject='.Yii::app()->user->name.'
                         //'order'=>'id DESC',
                         //'with'=>array('author'),
                     ),
-                ));               
+                ));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
-            /*
-            $criteria=new CDbCriteria(array(                    
-                                'order'=>'status desc',
-                                'with'   => array('userToProject'=>array('alias'=>'user')),
-                                'condition'=>'status='.Project::STATUS_FINISHED.' OR user.id = 6',
-
-                        ));
-
-            $dataProvider=new CActiveDataProvider('Project', array(
-                        'criteria'=>$criteria,
-                ));
-            $this->render('index',array(
-                        'dataProvider'=>$dataProvider,
-                ));
-             * 
-             */
 	}
 
 	/**
@@ -176,6 +170,7 @@ class ProjectController extends Controller
 	public function loadModel($id)
 	{
 		$model=Project::model()->findByPk($id);
+                //$model=Project::model()->findByAttributes('adminProject=aa');
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

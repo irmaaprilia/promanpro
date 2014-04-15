@@ -10,6 +10,7 @@
  * @property string $Status
  * @property string $Start_Date
  * @property string $End_Date
+ * @property string $adminProject
  */
 class Project extends CActiveRecord
 {
@@ -29,13 +30,14 @@ class Project extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name,Start_Date', 'required'),
+			array('Name', 'required'),
 			array('Name', 'length', 'max'=>20),
 			array('Status', 'length', 'max'=>10),
+			array('adminProject', 'length', 'max'=>30),
 			array('Description, End_Date', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('ID, Name, Description, Status, Start_Date, End_Date', 'safe', 'on'=>'search'),
+			array('ID, Name, Description, Status, Start_Date, End_Date, adminProject', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,7 +49,6 @@ class Project extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'id' => array(self::BELONGS_TO, 'user', 'ID'),
 		);
 	}
 
@@ -63,6 +64,7 @@ class Project extends CActiveRecord
 			'Status' => 'Status',
 			'Start_Date' => 'Start Date',
 			'End_Date' => 'End Date',
+			'adminProject' => 'Admin Project',
 		);
 	}
 
@@ -90,6 +92,7 @@ class Project extends CActiveRecord
 		$criteria->compare('Status',$this->Status,true);
 		$criteria->compare('Start_Date',$this->Start_Date,true);
 		$criteria->compare('End_Date',$this->End_Date,true);
+		$criteria->compare('adminProject',$this->adminProject,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
