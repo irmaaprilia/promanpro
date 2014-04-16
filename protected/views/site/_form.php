@@ -45,7 +45,7 @@
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('create'); ?>
-		<?php echo CHtml::Button('Cancel',array('onClick'=> 'js:history.go(-1);returnFalse;')); ?>
+		<?php echo CHtml::Button('Cancel',array('submit'=>array('site/index'))); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

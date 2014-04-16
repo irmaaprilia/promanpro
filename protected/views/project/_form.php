@@ -48,17 +48,30 @@ $this->widget('zii.widgets.jui.CJuiDatePicker', array(
         'size' => '10',         // textField size
         'maxlength' => '10',    // textField maxlength
     ),
+    'options' => array(
+                'dateFormat' => 'yy-mm-dd',
+            )
 ));?>
 		<!--<?php echo $form->error($model,'Start_Date'); ?>-->
                 
 	</div>
 
-<!--
+
 	<div class="row">
 		<?php echo $form->labelEx($model,'End_Date'); ?>
-		<?php echo $form->textField($model,'End_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
-		<?php echo $form->error($model,'End_Date'); ?>
-	</div>-->
+		<?php // echo $form->textField($model,'Start_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
+            <?php
+$this->widget('zii.widgets.jui.CJuiDatePicker', array(
+    'name' => 'Project[End_Date]',
+    'value' => $model->End_Date,
+    'htmlOptions' => array(
+        'size' => '10',         // textField size
+        'maxlength' => '10',    // textField maxlength
+    ),
+    'options' => array(
+                'dateFormat' => 'yy-mm-dd',
+            )
+));?>
 
         <!--
 	<div class="row">
