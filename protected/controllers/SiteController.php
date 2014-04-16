@@ -63,13 +63,16 @@ class SiteController extends Controller
 //                  $model->Email = $_POST['User']['Email'];                  
                 if($model->save())
                 {
-                 $this->redirect(array("login"));
+                 $this->redirect(array('ViewSuccess'));
                 }
                 
             }
             $this->render('register',array(
                 'model'=>$model,
             ));
+        }
+        public function actionViewSuccess(){
+            $this->render('success');
         }
         
 	/**

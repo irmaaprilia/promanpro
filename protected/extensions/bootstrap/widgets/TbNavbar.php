@@ -75,10 +75,11 @@ class TbNavbar extends CWidget
 			if (!isset($this->brand))
 				$this->brand = CHtml::encode(Yii::app()->name);
 
-			//if (!isset($this->brandUrl))
-				//$this->brandUrl = Yii::app()->homeUrl;
+                        //Yii::app()->user->isGuest
+			if (!isset($this->brandUrl) && Yii::app()->user->isGuest)
+				$this->brandUrl = Yii::app()->homeUrl;
 
-			//$this->brandOptions['href'] = CHtml::normalizeUrl($this->brandUrl);
+			$this->brandOptions['href'] = CHtml::normalizeUrl($this->brandUrl);
 
 			if (isset($this->brandOptions['class']))
 				$this->brandOptions['class'] .= ' brand';

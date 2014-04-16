@@ -6326,3 +6326,53 @@ Stack trace:
 REQUEST_URI=/PROMANPRO/index.php/task/update/6
 HTTP_REFERER=http://localhost/PROMANPRO/index.php/task/6
 ---
+2014/04/16 16:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "success".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('success')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('success')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/success')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\promanpro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PROMANPRO/index.php/site/success
+HTTP_REFERER=http://localhost/PROMANPRO/index.php/site/register
+---
+2014/04/16 16:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "success".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('success')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('success')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/success')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\promanpro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PROMANPRO/index.php/site/success
+HTTP_REFERER=http://localhost/PROMANPRO/index.php/site/register
+---
+2014/04/16 16:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "success".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('success')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('success')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/success')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\promanpro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PROMANPRO/index.php/site/success
+HTTP_REFERER=http://localhost/PROMANPRO/index.php/site/register
+---
+2014/04/16 16:26:30 [error] [php] Undefined variable: model (C:\xampp\htdocs\promanpro\protected\views\site\success.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\promanpro\protected\controllers\SiteController.php(75): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewSuccess()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\promanpro\index.php(13): CWebApplication->run()
+REQUEST_URI=/PROMANPRO/index.php/site/ViewSuccess
+in C:\xampp\htdocs\promanpro\protected\views\site\success.php (28)
+in C:\xampp\htdocs\promanpro\protected\controllers\SiteController.php (75)
+in C:\xampp\htdocs\promanpro\index.php (13)
