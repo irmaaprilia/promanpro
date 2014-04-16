@@ -69,10 +69,11 @@ class ProjectController extends Controller
 
 		if(isset($_POST['Project']))
 		{
-                        
                         //$model->description='aa';
 			$model->attributes=$_POST['Project'];
-                        //$model->adminProject=Yii::app()->user->id;
+                        $model->adminProject=Yii::app()->user->id;
+                        $model->Start_Date=date('Y-m-d');
+                        $model->Status='open';
                         //$model->adminProject=Yii::app()->user->getId();
                         //$model->adminProject=Yii::app()->user->email;
                         //$model->Start_Date='20140415';
@@ -128,11 +129,12 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
+                      
 		$dataProvider=new CActiveDataProvider('Project',array(
                     'criteria'=>array(
                         //$criteria=new CDbCriteria,
                         //$criteria->compare('isAdmin', Yii::app()->isAdmin, true), //ini yang barusan diubah
-                        'condition'=>'adminProject=1',
+                        'condition'=>'adminProject='.Yii::app()->user->id,
                         //'condition'=>compare('adminProject', 'aa'),
                         //'condition'=>'start_date=20140415',
                         //AdminProject='.Yii::app()->user->name.'

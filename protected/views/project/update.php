@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Project', 'url'=>array('index')),
-	array('label'=>'Create Project', 'url'=>array('create')),
-	array('label'=>'View Project', 'url'=>array('view', 'id'=>$model->ID)),
-	array('label'=>'Manage Project', 'url'=>array('admin')),
+	//array('label'=>'List Project', 'url'=>array('index')),
+	//array('label'=>'Create Project', 'url'=>array('create')),
+	//array('label'=>'View Project', 'url'=>array('view', 'id'=>$model->ID)),
+	//array('label'=>'Manage Project', 'url'=>array('admin')),
 );
 ?>
-
-<h1>Update Project <?php echo $model->ID; ?></h1>
+<br></br>
+<h1>Update Project</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

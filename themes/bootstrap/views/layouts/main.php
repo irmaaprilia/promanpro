@@ -19,7 +19,7 @@
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Profile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Profil', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Project', 'url'=>array('/project/index'),'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
@@ -30,16 +30,17 @@
 
 <div class="container" id="page">
 
+    <!--
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+		)); ?> --><!-- breadcrumbs -->
+	<?php endif?><!-- -->
 
 	<?php echo $content; ?>
 
 	<div class="clear"></div>
-
+<br></br>
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
 		All Rights Reserved.<br/>

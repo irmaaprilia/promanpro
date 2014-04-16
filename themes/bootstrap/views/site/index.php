@@ -14,12 +14,13 @@ $this->pageTitle=Yii::app()->name;
 <?php $this->endWidget(); ?>
 -->
 
-
+<br></br>
 <?php $this->beginWidget('bootstrap.widgets.TbHeroUnit', array(
     'heading' => 'Welcome to '.CHtml::encode(Yii::app()->name),
     
 )); ?>
-<p>Lala is here for developing this apps</p> 
+<p>Manage Your Project
+Easily, Collaboratively</p> 
 <?php $this->widget('bootstrap.widgets.TbButton', array(
     'label'=>'Sign Up',
     'url'=>array('/site/register'),
@@ -28,7 +29,7 @@ $this->pageTitle=Yii::app()->name;
 )); ?>
 <?php $this->endWidget(); ?>
 
-
+<!--
 <p>You may change the content of this page by modifying the following two files:</p>
 
 <ul>
@@ -40,3 +41,4 @@ $this->pageTitle=Yii::app()->name;
     the <a href="http://www.yiiframework.com/doc/">documentation</a>.
     Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
     should you have any questions.</p>
+-->

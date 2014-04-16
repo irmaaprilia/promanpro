@@ -70,6 +70,7 @@ class TaskController extends Controller
 		if(isset($_POST['Task']))
 		{
 			$model->attributes=$_POST['Task'];
+                        $model->Start_Time=date('Y-m-d');
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}

@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Task', 'url'=>array('index')),
-	array('label'=>'Manage Task', 'url'=>array('admin')),
+	//array('label'=>'List Task', 'url'=>array('index')),
+	//array('label'=>'Manage Task', 'url'=>array('admin')),
 );
 ?>
-
+<br></br>
 <h1>Create Task</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

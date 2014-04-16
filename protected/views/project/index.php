@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Create Project', 'url'=>array('create')),
-	array('label'=>'Manage Project', 'url'=>array('admin')),
+	//array('label'=>'Manage Project', 'url'=>array('admin')),
 );
 ?>
-
+<br></br>
 <h1>Projects</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
