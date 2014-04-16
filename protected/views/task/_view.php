@@ -33,6 +33,6 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('End_Time')); ?>:</b>
 	<?php echo CHtml::encode($data->End_Time); ?>
 	<br />
-
+        <br></br>
 
 </div>

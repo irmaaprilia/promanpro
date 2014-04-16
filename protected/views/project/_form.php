@@ -22,32 +22,43 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'Name'); ?>
 		<?php echo $form->textField($model,'Name',array('size'=>20,'maxlength'=>20)); ?>
-		<?php echo $form->error($model,'Name'); ?>
+		<!--<?php echo $form->error($model,'Name'); ?>-->
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Description'); ?>
 		<?php echo $form->textArea($model,'Description',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'Description'); ?>
+		<!--<?php echo $form->error($model,'Description'); ?>-->
 	</div>
-
+<!--
 	<div class="row">
 		<?php echo $form->labelEx($model,'Status'); ?>
 		<?php echo $form->textField($model,'Status',array('size'=>10,'maxlength'=>10)); ?>
 		<?php echo $form->error($model,'Status'); ?>
-	</div>
+	</div>-->
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Start_Date'); ?>
-		<?php echo $form->textField($model,'Start_Date'); ?>
-		<?php echo $form->error($model,'Start_Date'); ?>
+		<?php // echo $form->textField($model,'Start_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
+            <?php
+$this->widget('zii.widgets.jui.CJuiDatePicker', array(
+    'name' => 'Project[Start_Date]',
+    'value' => $model->Start_Date,
+    'htmlOptions' => array(
+        'size' => '10',         // textField size
+        'maxlength' => '10',    // textField maxlength
+    ),
+));?>
+		<!--<?php echo $form->error($model,'Start_Date'); ?>-->
+                
 	</div>
 
+<!--
 	<div class="row">
 		<?php echo $form->labelEx($model,'End_Date'); ?>
-		<?php echo $form->textField($model,'End_Date'); ?>
+		<?php echo $form->textField($model,'End_Date',array('placeholder'=>'YYYY-MM-DD')); ?>
 		<?php echo $form->error($model,'End_Date'); ?>
-	</div>
+	</div>-->
 
         <!--
 	<div class="row">

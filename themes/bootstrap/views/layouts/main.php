@@ -14,12 +14,13 @@
 
 <body>
 
+    
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
     'items'=>array(
         array(
             'class'=>'bootstrap.widgets.TbMenu',
             'items'=>array(
-                array('label'=>'Profil', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Profile', 'url'=>array('/User/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Project', 'url'=>array('/project/index'),'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
@@ -27,7 +28,7 @@
         ),
     ),
 )); ?>
-
+    
 <div class="container" id="page">
 
     <!--

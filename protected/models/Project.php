@@ -30,7 +30,7 @@ class Project extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name', 'required'),
+			array('Name,Start_Date', 'required'),
 			array('Name', 'length', 'max'=>20),
 			array('Status', 'length', 'max'=>10),
 			array('adminProject', 'length', 'max'=>30),

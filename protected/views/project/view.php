@@ -26,7 +26,7 @@ $this->menu=array(
 		//'ID',
 		'Name',
 		'Description',
-		'Status',
+		//'Status',
 		'Start_Date',
 		'End_Date',
 		//'adminProject',

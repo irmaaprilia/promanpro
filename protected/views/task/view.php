@@ -17,7 +17,7 @@ $this->menu=array(
 );
 ?>
 <br></br>
-<h1>View Task #<?php echo $model->ID; ?></h1>
+<h1>View Task : <?php echo $model->Name; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

@@ -30,15 +30,22 @@ class Task extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name', 'required'),
+			array('Name, Start_Time, End_Time', 'required'),
 			array('Progress', 'numerical', 'integerOnly'=>true),
 			array('Name, PJ', 'length', 'max'=>20),
 			array('Description', 'safe'),
+                        array('End_Time', 'cekWaktu'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('ID, Name, Description, PJ, Progress, Start_Time, End_Time', 'safe', 'on'=>'search'),
 		);
 	}
+        public function cekWaktu()
+        {
+            if($this->Start_Time > $this->End_Time){
+                $this->addError('End_Time', 'The Start Date cannot be older than End Date') ;
+            }
+        }
 
 	/**
 	 * @return array relational rules.
