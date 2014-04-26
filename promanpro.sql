@@ -3,9 +3,15 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Apr 26, 2014 at 08:17 AM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
+=======
+-- Generation Time: Apr 15, 2014 at 01:01 PM
+-- Server version: 5.6.11
+-- PHP Version: 5.5.3
+>>>>>>> 358cc416f01cbbfbe817d60143a9f250065662d0
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -50,15 +56,40 @@ CREATE TABLE IF NOT EXISTS `project` (
   `adminProject` varchar(30) NOT NULL,
   PRIMARY KEY (`ID`),
   KEY `adminProject` (`adminProject`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=29 ;
+=======
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=27 ;
+>>>>>>> 358cc416f01cbbfbe817d60143a9f250065662d0
 
 --
 -- Dumping data for table `project`
 --
 
 INSERT INTO `project` (`ID`, `Name`, `Description`, `Status`, `Start_Date`, `End_Date`, `adminProject`) VALUES
+<<<<<<< HEAD
 (27, 'aa', '', '', '2014-04-09', '0000-00-00', '2'),
 (28, 'Tesuto', '', '', '2014-04-01', '2014-04-30', '4');
+=======
+(1, 'test', 'test', 'test', '0000-00-00', '0000-00-00', ''),
+(2, 'test2', 'test', '', '2014-04-11', '2014-04-15', ''),
+(4, 'test23', 'test23', '', '2014-04-11', '2014-04-15', ''),
+(12, 'j', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(13, 'h', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(14, 'i', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(15, 'q', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(16, 'w', '', '', '0000-00-00', '0000-00-00', 'testname'),
+(17, 'r', '', '', '0000-00-00', '0000-00-00', 'testname'),
+(18, 'y', '', '', '0000-00-00', '0000-00-00', 'testname'),
+(19, 'u', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(20, 't', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(21, 'g', '', '', '0000-00-00', '0000-00-00', '1'),
+(22, 'k', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(23, 'c', '', '', '0000-00-00', '0000-00-00', 'aa'),
+(24, 'x', '', '', '0000-00-00', '0000-00-00', '1'),
+(25, 'p', '', '', '2014-04-15', '0000-00-00', 'aa'),
+(26, 'l', '', '', '0000-00-00', '0000-00-00', '');
+>>>>>>> 358cc416f01cbbfbe817d60143a9f250065662d0
 
 -- --------------------------------------------------------
 
