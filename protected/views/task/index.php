@@ -3,7 +3,6 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-        'Project'=>array('project/index'),
 	'Tasks',
 );
 

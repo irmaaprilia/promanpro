@@ -3,7 +3,6 @@
 /* @var $model Task */
 
 $this->breadcrumbs=array(
-    'Project'=>array('project/index'),
 	'Tasks'=>array('index'),
 	$model->Name,
 );
@@ -23,6 +22,7 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'ID',
+		'pID',
 		'Name',
 		'Description',
 		'PJ',

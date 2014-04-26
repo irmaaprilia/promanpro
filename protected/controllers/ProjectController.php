@@ -32,13 +32,13 @@ class ProjectController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','delete'),
 				'users'=>array('@'),
 			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
-			),
+			//array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				//'actions'=>array('admin','delete'),
+				//'users'=>array('admin'),
+			//),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -67,12 +67,14 @@ class ProjectController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+                //$model->Start_Date=date('Y-m-d');
+                //$model->Status='open';
+                        
 		if(isset($_POST['Project']))
 		{
-                        
                         //$model->description='aa';
 			$model->attributes=$_POST['Project'];
-                        //$model->adminProject=Yii::app()->user->id;
+                        $model->adminProject=Yii::app()->user->id;
                         //$model->adminProject=Yii::app()->user->getId();
                         //$model->adminProject=Yii::app()->user->email;
                         //$model->Start_Date='20140415';
@@ -116,11 +118,14 @@ class ProjectController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+            //$this->redirect(Yii::app()->user->returnUrl=array('index'));
 		$this->loadModel($id)->delete();
+                
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
-			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+			//$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+                $this->redirect(Yii::app()->user->returnUrl=array('index'));
 	}
 
 	/**
@@ -128,11 +133,12 @@ class ProjectController extends Controller
 	 */
 	public function actionIndex()
 	{
+                      
 		$dataProvider=new CActiveDataProvider('Project',array(
                     'criteria'=>array(
                         //$criteria=new CDbCriteria,
                         //$criteria->compare('isAdmin', Yii::app()->isAdmin, true), //ini yang barusan diubah
-                        'condition'=>'adminProject=1',
+                        'condition'=>'adminProject='.Yii::app()->user->id,
                         //'condition'=>compare('adminProject', 'aa'),
                         //'condition'=>'start_date=20140415',
                         //AdminProject='.Yii::app()->user->name.'

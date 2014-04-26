@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.4.1
+-- version 3.5.2.2
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2014 at 09:58 AM
--- Server version: 5.6.11
--- PHP Version: 5.5.3
+-- Generation Time: Apr 26, 2014 at 08:17 AM
+-- Server version: 5.5.27
+-- PHP Version: 5.4.7
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `promanpro`
 --
-CREATE DATABASE IF NOT EXISTS `promanpro` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `promanpro`;
 
 -- --------------------------------------------------------
 
@@ -29,10 +27,12 @@ USE `promanpro`;
 --
 
 CREATE TABLE IF NOT EXISTS `invitation` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL,
   `status` tinyint(1) DEFAULT NULL,
+  `idProject` int(11) NOT NULL,
+  `idUser` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -43,21 +43,22 @@ CREATE TABLE IF NOT EXISTS `invitation` (
 CREATE TABLE IF NOT EXISTS `project` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(20) NOT NULL,
-  `Description` text,
+  `Description` text NOT NULL,
   `Status` varchar(10) NOT NULL,
   `Start_Date` date NOT NULL,
   `End_Date` date DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+  `adminProject` varchar(30) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `adminProject` (`adminProject`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=29 ;
 
 --
 -- Dumping data for table `project`
 --
 
-INSERT INTO `project` (`ID`, `Name`, `Description`, `Status`, `Start_Date`, `End_Date`) VALUES
-(1, 'test', 'test', 'test', '0000-00-00', '0000-00-00'),
-(2, 'test2', 'test', '', '2014-04-11', '2014-04-15'),
-(4, 'test23', 'test23', '', '2014-04-11', '2014-04-15');
+INSERT INTO `project` (`ID`, `Name`, `Description`, `Status`, `Start_Date`, `End_Date`, `adminProject`) VALUES
+(27, 'aa', '', '', '2014-04-09', '0000-00-00', '2'),
+(28, 'Tesuto', '', '', '2014-04-01', '2014-04-30', '4');
 
 -- --------------------------------------------------------
 
@@ -67,6 +68,7 @@ INSERT INTO `project` (`ID`, `Name`, `Description`, `Status`, `Start_Date`, `End
 
 CREATE TABLE IF NOT EXISTS `task` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `pID` int(11) NOT NULL,
   `Name` varchar(20) NOT NULL,
   `Description` text,
   `PJ` varchar(20) NOT NULL,
@@ -80,8 +82,8 @@ CREATE TABLE IF NOT EXISTS `task` (
 -- Dumping data for table `task`
 --
 
-INSERT INTO `task` (`ID`, `Name`, `Description`, `PJ`, `Progress`, `Start_Time`, `End_Time`) VALUES
-(1, 'test', NULL, '', 0, '0000-00-00', '0000-00-00');
+INSERT INTO `task` (`ID`, `pID`, `Name`, `Description`, `PJ`, `Progress`, `Start_Time`, `End_Time`) VALUES
+(1, 0, 'test', NULL, '', 0, '0000-00-00', '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -96,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `Name` varchar(20) NOT NULL,
   `Email` varchar(30) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `user`
@@ -104,7 +106,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`ID`, `Username`, `Password`, `Name`, `Email`) VALUES
 (2, 'testname', 'testpwd', 'test', 'test@test.com'),
-(3, 'testname2', 'test2', 'test2', 'test2@test.com');
+(3, 'testname2', 'test2', 'test2', 'test2@test.com'),
+(4, 'aa', 'aa', 'aa', 'aa@aa.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

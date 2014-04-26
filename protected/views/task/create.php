@@ -3,7 +3,7 @@
 /* @var $model Task */
 
 $this->breadcrumbs=array(
-        'Tasks'=>array('index'),
+	'Tasks'=>array('index'),
 	'Create',
 );
 

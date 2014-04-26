@@ -70,6 +70,7 @@ class TaskController extends Controller
 		if(isset($_POST['Task']))
 		{
 			$model->attributes=$_POST['Task'];
+                        $model->pID=Yii::app()->user->id;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ID));
 		}

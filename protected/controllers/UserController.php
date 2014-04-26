@@ -122,10 +122,25 @@ class UserController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('User');
+		$dataProvider=new CActiveDataProvider('User',array(
+                    'criteria'=>array(
+                        //$criteria=new CDbCriteria,
+                        //$criteria->compare('isAdmin', Yii::app()->isAdmin, true), //ini yang barusan diubah
+                        'condition'=>'id='.Yii::app()->user->id,
+                        //'condition'=>compare('adminProject', 'aa'),
+                        //'condition'=>'start_date=20140415',
+                        //AdminProject='.Yii::app()->user->name.'
+                        //'order'=>'id DESC',
+                        //'with'=>array('author'),
+                    ),
+                ));
+                /*
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
+                 * 
+                 */
+                $this->redirect(Yii::app()->user->returnUrl=array('user/view/'.Yii::app()->user->id));
 	}
 
 	/**

@@ -14,6 +14,7 @@
 
 <body>
 
+    
 <?php $this->widget('bootstrap.widgets.TbNavbar',array(
     'items'=>array(
         array(
@@ -27,19 +28,20 @@
         ),
     ),
 )); ?>
-
+    
 <div class="container" id="page">
 
+    <!--
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+		)); ?> --><!-- breadcrumbs -->
+	<?php endif?><!-- -->
 
 	<?php echo $content; ?>
 
 	<div class="clear"></div>
-
+<br></br>
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
 		All Rights Reserved.<br/>

@@ -23,12 +23,14 @@ class UserIdentity extends CUserIdentity
 //			'admin'=>'admin',
 		//);
                 $users=User::model()->findByAttributes(array('Username'=>  $this->username));
-		if(!isset($users))
+		if($users==null)
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users['Password']!==$this->password)
+		elseif($users->Password!==$this->password)
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
+		else{
+                        $this->setState('username', $users->Username);
+                        $this->setState('id', $users->ID);
+                $this->errorCode=self::ERROR_NONE;}
 		return !$this->errorCode;
 	}
 }

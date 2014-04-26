@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 	'Login',
 );
 ?>
-
+<br></br>
 <h1>Login</h1>
 
 <p>Please fill out the following form with your login credentials:</p>
@@ -29,10 +29,9 @@ $this->breadcrumbs=array(
 	<?php echo $form->textFieldRow($model,'username'); ?>
 
 	<?php echo $form->passwordFieldRow($model,'password',array(
-        'hint'=>'Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>',
     )); ?>
 
-	<?php echo $form->checkBoxRow($model,'rememberMe'); ?>
+	<!--<?php echo $form->checkBoxRow($model,'rememberMe'); ?>-->
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

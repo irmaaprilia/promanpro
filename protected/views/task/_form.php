@@ -20,19 +20,18 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'pID'); ?>
+		<?php echo $form->textField($model,'pID'); ?>
+		<?php echo $form->error($model,'pID'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'Name'); ?>
 		<?php echo $form->textField($model,'Name',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model,'Name'); ?>
 	</div>
-        
-        <div class="row">
-		<?php echo $form->labelEx($model,'Start_Date'); ?>
-		<?php echo $form->textField($model,'Start_Time',array('placeholder'=>'YYYY-MM-DD')); ?>
-		<?php echo $form->error($model,'Start_Time'); ?>
-	</div>
 
-        <!-- form 
-        <div class="row">
+	<div class="row">
 		<?php echo $form->labelEx($model,'Description'); ?>
 		<?php echo $form->textArea($model,'Description',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'Description'); ?>
@@ -51,11 +50,16 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'Start_Time'); ?>
+		<?php echo $form->textField($model,'Start_Time'); ?>
+		<?php echo $form->error($model,'Start_Time'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'End_Time'); ?>
 		<?php echo $form->textField($model,'End_Time'); ?>
 		<?php echo $form->error($model,'End_Time'); ?>
 	</div>
-        -->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

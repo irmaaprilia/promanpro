@@ -9,6 +9,10 @@
 	<?php echo CHtml::link(CHtml::encode($data->ID), array('view', 'id'=>$data->ID)); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('pID')); ?>:</b>
+	<?php echo CHtml::encode($data->pID); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Name')); ?>:</b>
 	<?php echo CHtml::encode($data->Name); ?>
 	<br />
@@ -29,9 +33,11 @@
 	<?php echo CHtml::encode($data->Start_Time); ?>
 	<br />
 
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('End_Time')); ?>:</b>
 	<?php echo CHtml::encode($data->End_Time); ?>
 	<br />
 
+	*/ ?>
 
 </div>
