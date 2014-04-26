@@ -73,9 +73,15 @@ class InvitationController extends Controller
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
-
+                $Nama = array();
+                $modelNama = User::model()->findAll();
+                
+                foreach($modelNama as $user){
+                    $Nama[] = $user->Name;
+                }
 		$this->render('create',array(
 			'model'=>$model,
+                        'Nama'=>$Nama,
 		));
 	}
 

@@ -29,7 +29,7 @@
             'model' => $model,
             'attribute' => 'idUser',
             'name' => 'normal',
-            'source' => array(Yii::app()->user->Name),
+            'source' => $Nama,
             // additional javascript options for the autocomplete plugin
             'options' => array(
                 'minLength' => '1',
