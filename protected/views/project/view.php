@@ -33,3 +33,21 @@ $this->menu=array(
 		//'adminProject',
 	),
 )); ?>
+
+<?php $this->widget('CTabView', array(
+    'tabs'=>array(
+        'tab1'=>array(
+            'title'=>'timeline',
+            //'view'=>'/task/_view',
+            //'data'=>array('model'=>$model),
+        ),
+        'tab2'=>array(
+            'title'=>'setting',
+            //'url'=>'http://www.yiiframework.com/',
+        ),
+        'tab3'=>array(
+            'title'=>'participants',
+            //'url'=>'http://www.yiiframework.com/',
+        ),
+    ),
+)); ?> 
